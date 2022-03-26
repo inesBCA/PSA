@@ -1,0 +1,69 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using S7.Net;
+
+namespace Interface_A
+{
+    public partial class Connect : Form
+    {
+        private Plc plc = null;
+        
+        public Connect()
+        {
+            InitializeComponent();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Connect_Load(object sender, EventArgs e)
+        {
+            comboBox1.DataSource = Enum.GetNames(typeof(CpuType));
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string variable = textBox4.Text;
+            object result = plc.Read(variable);
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            plc.Close();
+            textBox6.Text = "Disconnected";
+
+        }
+
+        private void ConnectButton_Click(object sender, EventArgs e)
+        {
+
+            CpuType cpu = (CpuType)Enum.Parse(typeof(CpuType), comboBox1.SelectedValue.ToString());
+                
+                
+            plc = new Plc(cpu,textBox1.Text, Convert.ToInt16(textBox2.Text), Convert.ToInt16(textBox3.Text));
+            plc.Open();
+
+            if (plc.IsConnected)
+                (
+
+                    textBox6.Text = "Connected";
+
+                )
+
+        }
+
+        private void WriteButton_Click(object sender, EventArgs e)
+        {
+
+        }
+       
+}
