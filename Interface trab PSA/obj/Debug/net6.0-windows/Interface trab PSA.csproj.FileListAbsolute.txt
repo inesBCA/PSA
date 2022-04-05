@@ -1,0 +1,7 @@
+C:\Users\cmatt\Desktop\Hugo\Faculdade\PSA - Projeto em Sistemas de Automação\Visual studio project\Interface trab PSA\obj\Debug\net6.0-windows\Interface trab PSA.csproj.AssemblyReference.cache
+C:\Users\cmatt\Desktop\Hugo\Faculdade\PSA - Projeto em Sistemas de Automação\Visual studio project\Interface trab PSA\obj\Debug\net6.0-windows\Interface_trab_PSA.Form1.resources
+C:\Users\cmatt\Desktop\Hugo\Faculdade\PSA - Projeto em Sistemas de Automação\Visual studio project\Interface trab PSA\obj\Debug\net6.0-windows\Interface trab PSA.csproj.GenerateResource.cache
+C:\Users\cmatt\Desktop\Hugo\Faculdade\PSA - Projeto em Sistemas de Automação\Visual studio project\Interface trab PSA\obj\Debug\net6.0-windows\Interface trab PSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmatt\Desktop\Hugo\Faculdade\PSA - Projeto em Sistemas de Automação\Visual studio project\Interface trab PSA\obj\Debug\net6.0-windows\Interface trab PSA.AssemblyInfoInputs.cache
+C:\Users\cmatt\Desktop\Hugo\Faculdade\PSA - Projeto em Sistemas de Automação\Visual studio project\Interface trab PSA\obj\Debug\net6.0-windows\Interface trab PSA.AssemblyInfo.cs
+C:\Users\cmatt\Desktop\Hugo\Faculdade\PSA - Projeto em Sistemas de Automação\Visual studio project\Interface trab PSA\obj\Debug\net6.0-windows\Interface trab PSA.csproj.CoreCompileInputs.cache
